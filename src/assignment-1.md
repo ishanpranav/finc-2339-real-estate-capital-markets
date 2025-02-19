@@ -93,3 +93,12 @@ requires principal repayment in installments.
 $$V=\text{pv}\left(r=\frac{6.93\%}{12},n=30\times 12,C=\$4000\right)\approx 605502.83.$$
 
 With a 30-year FRM, Jennifer will be able to borrow at most $605,502.83.
+
+## Short Question 3
+
+> After graduating from NYU Stern, you join the commercial real-estate
+> originations business of a large commercial bank. In your first deal, your
+> bank originates a $35M fixed rate commercial mortgage with a 4.75% annual
+> interest rate, 10-year term, 30-year amortization period, and monthly
+> payments. What is the size of the balloon payment due on this mortgage at
+> maturity?
