@@ -1,6 +1,6 @@
 # Assignment 1
 
-Ishan Pranav and Ellen Ryoo
+Ishan Pranav, Ellen Ryoo, and Pavan Chand
 
 February 27, 2025
 
@@ -77,7 +77,7 @@ We will use data on the current mortgage interest rates from
 
 Let $V$ denote the maximum loan amount.
 
-$$V=\frac{\$4000.00~\text{per month}}{6.24\%~\text{per year}}\cdot\frac{12~\text{months}}{1~\text{year}}\approx 769230.76.$$
+$$V=\frac{\$4000.00~\text{per month}}{6.24\%~\text{per year}}\cdot\frac{12~\text{months}}{1~\text{year}}\approx\$769230.76.$$
 
 With a 5/1 interest-only ARM, Jennifer will be able to borrow at most
 $769,230.76.
@@ -90,7 +90,7 @@ $769,230.76.
 The worst option is the 30-year FRM, since it has the highest interest rate and
 requires principal repayment in installments.
 
-$$V=\text{pv}\left(r=\frac{6.93\%}{12},n=30\times 12,C=\$4000\right)\approx 605502.83.$$
+$$V=\text{pv}\left(r=\frac{6.93\%}{12},n=30\times 12,C=\$4000\right)\approx \$605502.83.$$
 
 With a 30-year FRM, Jennifer will be able to borrow at most $605,502.83.
 
@@ -102,3 +102,110 @@ With a 30-year FRM, Jennifer will be able to borrow at most $605,502.83.
 > interest rate, 10-year term, 30-year amortization period, and monthly
 > payments. What is the size of the balloon payment due on this mortgage at
 > maturity?
+
+First, we determine the regular monthly payment:
+
+$$C=\text{pmt}\left(r=\frac{4.75\%}{12},n=30\times 12,V_0=\$35~\text{million}\right)\approx\$182576.57.$$
+
+__Future-value method.__
+
+The balloon payment is the remaining unamortized principal (that is, the future
+value) of the loan after 10 years (that is, 120 months).
+
+$$V_{120}=\text{fv}\left(r=\frac{4.75\%}{12},n=10\times 12,C,V_0=\$35~\text{million}\right)\approx\$28252846.22.$$
+
+The balloon payment is about $28 million.
+
+__Present-value method.__
+
+The balloon payment can also be expressed as the present value of the remaining
+cash flows amortized over months 121 to 360.
+
+$$V_{120}=\text{pv}\left(r=\frac{4.75\%}{12},n=20\times 12,C\right)\approx\$28252846.22.$$
+
+The results match.
+
+## Short Question 4
+
+> Suppose two houses sold in your neighborhood in the following years:
+
+|            | Year | Price | Year | Price |
+|------------|------|------:|------|------:|
+| Property 1 | 2017 | $320k | 2018 | $400k |
+| Property 2 | 2017 | $300k | 2019 | $360k |
+
+### Short Question 4 Part A
+
+> Using the repeat-sales methodology, what is the estimated appreciation in
+> house prices for this area between 2018 and 2019?
+
+We can estimate $r$, the appreciation from 2018 to 2019, using a
+no-arbitrage argument.
+
+$$\frac{\$360000}{\$300000}=\frac{\$400000}{\$320000}\cdot(1+r).$$
+
+$$1+r=0.96\Rightarrow r=-4\%.$$
+
+The estimated change in house prices from 2018 to 2019 was -4%.
+
+### Short Question 4 Part B
+
+> If both properties sold initially in 2010 rather than 2017 and these were the
+> only sales over that period, how would your answer to Part A change?
+
+There would be no change.
+
+## Problem 1: Mortgage interest deduction
+
+> Congress has passed legislation lowering the mortgage interest deduction limit
+> from $1,000,000 to $750,000.
+
+### Problem 1 Part A
+
+> What is the mortgage interest deduction? Which types of mortgage borrowers
+> benefit most from it, and why?
+
+* The mortgage interest deduction lets taxpayers deduct the interest and points
+  paid on qualified mortgages.
+  * The deduction applies to primary and secondary residences, but not
+    investment properties.
+  * There is a limit on the total amount of debt ($750,000 for new mortgages).
+* The deduction benefits high-income, recent homebuyers in high-tax states.
+  * Higher-income earners and residents of higher-tax states have higher
+    marginal tax rates and thus benefit more from deductions.
+  * Earlier mortgage payments contain more interest, so the deduction begins at
+    its peak, and declines thereafter.
+* The Tax Cuts and Jobs Act (2017) makes itemized deductions, including this
+  one, much less attractive relative to the standard deduction.
+
+### Problem 1 Part B
+
+> The mortgage interest deduction is often criticized by economists and others.
+> What are some of the key problems or issues which are highlighted by these
+> critics? Can you think of any counterarguments?
+
+* _Economists' criticism:_ the mortgage interest deduction is regressive,
+  disproportionately benefitting wealthy households.
+  * _Our rebuttal:_ middle-class homeowners in high-tax states still rely on the
+    deduction to subsidize borrowing.
+* _Economists' criticism:_ in practice, the deduction reduced the homeownership
+  rate since the tax benefit becomes capitalized in the house price.
+  * _Our rebuttal:_ since the Tax Cuts and Jobs Act increased the standard
+    deduction, the mortgage interest deduction is most relevant in high-cost
+    markets. Luxury markets would face the biggest impact.
+
+Source: [Why Economists Don't Like the Mortgage Interest Deduction - Federal Reserve Bank of St. Louis](https://www.stlouisfed.org/open-vault/2018/may/why-economists-dont-like-mortgage-interest-deduction)
+
+### Problem 1 Part C
+
+> Thinking about the user cost model we studied in class, what effect would
+> cutting or eliminating the mortgage interest deduction have on the cap rate
+> for residential real estate. Would this effect be larger when interest rates
+> are low or when rates are high? Explain.
+
+In the existing model, the cap rate depends on $r(1-\tau)$. Without a mortgage
+interest deduction, the caprate would be $r$. Since $r>r(1-\tau)$ when $\tau>0$,
+the cap rate increases. The difference is amplified when the interest rate is
+high, since eliminating the deduction effectively scales up the interest rate.
+
+## Problem 2: Fixed-rate mortgage
