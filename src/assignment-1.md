@@ -1,6 +1,6 @@
 # Assignment 1
 
-Ishan Pranav, Ellen Ryoo, and Pavan Chand
+Ishan Pranav, Yerim Ryoo, and Pavan Chand
 
 February 27, 2025
 
@@ -153,7 +153,14 @@ The estimated change in house prices from 2018 to 2019 was -4%.
 > If both properties sold initially in 2010 rather than 2017 and these were the
 > only sales over that period, how would your answer to Part A change?
 
-There would be no change.
+The result would be the same: -4% from 2018 to 2019.
+
+Changing the initial year the properties were sold to 2010 only shifts the
+periods from 2017-2018 and 2018-2019 to 2010-2018 and 2018-2019.
+
+For this reason, the result from Part A still applies. The only difference is
+that the price appreciation prior to 2018. Instead of covering one year, the
+pre-2018 price appreciation now covers 8 years.
 
 ## Problem 1: Mortgage interest deduction
 
@@ -309,7 +316,9 @@ The monthly payment is about $6,870.32.
 > mortgage. Factoring in the interest deduction (at a 37% tax bracket); how much
 > will John have paid in total for the mortgage after 30 years?
 
-We assume that John claims itemized deductions in all years.
+We assume that John claims itemized deductions in all years. For simplicity, we
+also assume that ther eis no limit on the loan balance for the purpose of the
+mortgage interest deduction.
 
 The total payments are $6870.32\times 360$, or about $2,473,316.27.
 
