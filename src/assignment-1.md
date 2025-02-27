@@ -209,3 +209,145 @@ the cap rate increases. The difference is amplified when the interest rate is
 high, since eliminating the deduction effectively scales up the interest rate.
 
 ## Problem 2: Fixed-rate mortgage
+
+> You take out a 15-year fixed-rate mortgage for $500,000, and buy down the
+> interest rate by purchasing two points. After the points, the interest rate
+> you agree to is 3.25% per annum. You subsequently retain this mortgage for 3
+> years, before prepaying it.
+
+### Problem 2 Part A
+
+> What is the monthly payment on this mortgage? How much of the initial payment
+> is interest, and how much is principal?
+
+$$C=\text{pmt}\left(r=\frac{3.25\%}{12},n=15\times 12,V_0=\$500000\right)\approx\$3513.34.$$
+
+Of the initial payment, $\frac{3.25\%}{12}\times\$500000\approx\$1354.17$ is
+interest, so the remaining $\$3513.34-\$1354.17\approx\$2159.18$ is repayment of
+principal.
+
+### Problem 2 Part B
+
+> Over the three years, what is the total of all the interest payments you make
+> on this loan? What is the total value of the principal payments?
+
+The total of all payments is
+$3\cdot 12\cdot C=3\cdot 12\cdot\$3513.34\approx\$126410.38$.
+
+The remaining value of the loan is its future value in 3 years (36 months):
+
+$$V_{36}=\text{pv}\left(r=\frac{3.25\%}{12},n=3\times 12,V_0=\$500000\right)\approx\$418469.87.$$
+
+Thus, the total value of the principal payments is $\$500000-418469.87=\$81530.13$.
+
+The remaining $\$126410.38-\$81530.13=\$44950.25$ is the total value of the
+interest payments.
+
+### Problem 2 Part C
+
+> Given that you paid off the loan after three years, would you have been better
+> off (in terms of the effective interest rate) if you hadn’t paid points but
+> taken a 3.75% interest rate? How would this answer change if you had held the
+> loan until maturity instead?
+
+Since the loan was paid off after 3 years, a higher interest rate makes more
+sense than paying points, since it results in a lower effective interest rate
+over the short holding period.
+
+If the loan were held to maturity, the compounding effect of the larger interest
+rate overcomes the upfront point payment, so it would make more sense to buy
+down the interest rate with points.
+
+### Problem 2 Part D
+
+N/A.
+
+### Problem 2 Part E
+
+> What types of borrowers would generally not want to buy points on a fixed-rate
+> mortgage?
+
+Borrowers who intend to exit the mortgage early (refinance to a lower rate or
+prepay), prefer not to buy points on a fixed-rate mortgage.
+
+### Problem 2 Part F
+
+> Are prepayment penalties common for this type of loan?
+
+Yes prepayment penalties are common for fixed-rate mortgages, especially during
+the first few years of the loan, to create friction for borrowers when
+refinancing. Frequent refinancing creates costs and reinvestment risks for
+lenders, so the penalties increase the effective rate in these cases.
+
+## Problem 3
+
+### Problem 3 Part A
+
+> Notice that the “zestimate” – Zillow’s best estimate of the house price –
+> jumps in July 2018. Can you figure out why Zillow’s formula to estimate prices
+> would predict such a large increase? Do you think the variable that accounts
+> for this increase should be in their formula to estimate the price?
+
+In July 2018, the "zestimate" jumps from $763 thousand to $1.2 million. This is
+because the home was listed for sale for $1,290,000 that month. Including
+listing price in the "zestimate" is questionable because it creates a circular
+feedback loop that introduces bias.
+
+### Problem 3 Part B
+
+> Suppose that John put 20% down and paid $1.3 million on the property. Using
+> the estimate for 30 FRM rates you gathered in Short Question 2, estimate the
+> monthly payment for a 30-year fixed-rate mortgage on this property.
+
+$$C=\text{pmt}\left(r=\frac{6.93\%}{12},n=12\times 30,V_0=80\%\times\$1.3\text{ million}\right)\approx\$6870.32.$$
+
+The monthly payment is about $6,870.32.
+
+### Problem 3 Part C
+
+> Suppose that John has the money to pay for the property in cash, or get a
+> mortgage. Factoring in the interest deduction (at a 37% tax bracket); how much
+> will John have paid in total for the mortgage after 30 years?
+
+We assume that John claims itemized deductions in all years.
+
+The total payments are $6870.32\times 360$, or about $2,473,316.27.
+
+Thus, the total interest payments are $2473316.27-1040000$, or about $1,433,316.27.
+
+After the mortgage interest deduction, the total cost of the mortgage is $1433316.27\times(1-37\%)$, or about $902,989.25.
+
+### Problem 3 Part D
+
+> If John could instead reinvest the cash somewhere else – what rate of return
+> would John need on the alternate investment for it to make sense to get the
+> mortgage instead of paying fully in cash?
+
+John should invest if the profit from investing equals the cost of the mortgage:
+
+$$r=\left(\frac{\$1040000+\$902989.25}{\$1040000}\right)^{\frac{1}{360}}-1\approx(0.174\%\times 12)\approx 2.09\%.$$
+
+If John can invest at a 2.09% APR, he will take the mortgage.
+
+### Problem 3 Part E
+
+> Suppose the property has a $14,000/year flood insurance requirement if the
+> property has a mortgage. How does your answer to Part D change?
+
+The total cost of flood insurance is $420,000, so the total cost of the mortgage
+increases to $1,322,989.25.
+
+Still, John should invest at a rate where the profit from investing equals the
+cost of the mortgage:
+
+$$r=\left(\frac{\$1040000+\$1322989.25}{\$1040000}\right)^{\frac{1}{360}}-1\approx(0.228\%\times 12)\approx 2.74\%.$$
+
+Now John must invest at a 2.74% APR.
+
+### Problem 3 Part F
+
+> Should John get the mortgage?
+
+Yes. The 30-year Treasury rate is above John's required rate of return. He can
+obtain a long-term mortgage and collect arbitrage profits by investing in
+credit-risk-free securities with a higher rate of return.
