@@ -326,7 +326,8 @@ interest, net of tax deductions.
 > would John need on the alternate investment for it to make sense to get the
 > mortgage instead of paying fully in cash?
 
-John should invest if the profit from investing equals the cost of the mortgage:
+John should invest if the income from investing equals the net interest expense
+on the mortgage:
 
 $$r=\left(\frac{\$1040000+\$902989.25}{\$1040000}\right)^{\frac{1}{360}}-1\approx(0.174\%\times 12)\approx 2.09\%.$$
 
@@ -340,8 +341,8 @@ If John can invest at a 2.09% APR, he will take the mortgage.
 The total cost of flood insurance is $420,000, so the total cost of the mortgage
 increases to $1,322,989.25.
 
-Still, John should invest at a rate where the profit from investing equals the
-cost of the mortgage:
+Still, John should invest at a rate where investment income equals net
+investment expense:
 
 $$r=\left(\frac{\$1040000+\$1322989.25}{\$1040000}\right)^{\frac{1}{360}}-1\approx(0.228\%\times 12)\approx 2.74\%.$$
 
