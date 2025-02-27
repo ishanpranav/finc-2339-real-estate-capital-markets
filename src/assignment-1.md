@@ -159,8 +159,8 @@ Changing the initial year the properties were sold to 2010 only shifts the
 periods from 2017-2018 and 2018-2019 to 2010-2018 and 2018-2019.
 
 For this reason, the result from Part A still applies. The only difference is
-that the price appreciation prior to 2018. Instead of covering one year, the
-pre-2018 price appreciation now covers 8 years.
+the price appreciation prior to 2018. Instead of covering one year, the pre-2018
+price appreciation now covers 8 years.
 
 ## Problem 1: Mortgage interest deduction
 
