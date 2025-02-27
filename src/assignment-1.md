@@ -315,7 +315,10 @@ The total payments are $6870.32\times 360$, or about $2,473,316.27.
 
 Thus, the total interest payments are $2473316.27-1040000$, or about $1,433,316.27.
 
-After the mortgage interest deduction, the total cost of the mortgage is $1433316.27\times(1-37\%)$, or about $902,989.25.
+After the mortgage interest deduction, the cost of borrowing is $1433316.27\times(1-37\%)$, or about $902,989.25.
+
+The total cash outflows are $1,942,989.25, including payments of principal and
+interest, net of tax deductions.
 
 ### Problem 3 Part D
 
