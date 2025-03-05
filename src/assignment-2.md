@@ -18,11 +18,15 @@ FINC 2339 Real Estate Capital Markets
 In month $t$, the survival factor $Q_t$ is a function of the SMMs for months $1$
 to $t$:
 
-$$Q_{36}=(1-0.5\%)^{12}\cdot(1-1.5\%)^{36}\approx 65.5\%.$$
+$$Q_{36}=(1-0.5\%)^{12}\cdot(1-1.5\%)^{24}\approx 65.5\%.$$
 
 ## Short Question 2
 
 > Assume the mortgage interest deduction is abolished.
+
+## Short Question 3
+
+## Short Question 4
 
 ## Problem 1
 
@@ -58,3 +62,13 @@ V_0&=\text{pv}\left(r=\frac{3.0\%}{12},n=5\times 12,C=0.5443\dots\%\right)\\&+\t
 \end{align*}$$
 
 The market price is 106-19.
+
+### Problem 1 Part B
+
+> Imagine that Quicken’s new Rocket Mortgage app becomes widely available to
+> borrowers and sends alerts to them continuously prodding or “nudging” them to
+> refinance. As a result, 10% of the borrowers in the pool refinance their
+> mortgages via Quicken immediately, and the other 90% are now expected to
+> prepay their mortgages in three years’ time instead of five years’ time. What
+> gain or loss will your hedge fund experience, expressed as a percentage of the
+> prior market value of your MBS investments?
