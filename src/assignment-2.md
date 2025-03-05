@@ -1,4 +1,4 @@
-# Assignment 1
+# Assignment 2
 
 Ishan Pranav, Yerim Ryoo, and Pavan Chand
 
@@ -24,7 +24,81 @@ $$Q_{36}=(1-0.5\%)^{12}\cdot(1-1.5\%)^{24}\approx 65.5\%.$$
 
 > Assume the mortgage interest deduction is abolished.
 
+### Short Question 2 Part A
+
+> What do you think would happen to mortgage prepayment speeds, and why?
+
+If the mortgage interest deduction were abolished, mortgage prepayment speeds
+would likely increase. Reducing or eliminating the mortgage interest deduction
+increases the effective coupon rate paid by borrowers. As a result, mortgage
+debt would become less attractive, and there would be a greater incentive to
+extinguish the debt.
+
+Relative to other investment opportunities, mortgage debt would become more
+expensive, so borrowers may prefer to use their capital to pay it down before
+purchasing assets.
+
+### Short Question 2 Part B
+
+> Assume current mortgage rates are at 4%. The day of the announcement, what do
+> you think would happen to the price of a fixed-rate passthrough MBS with a 6%
+> coupon? What about an MBS with a 3% coupon?
+
+The price of a fixed-rate passthrough MBS with a 6-percent coupon would decline:
+Its coupon rate (6%) is above-market (4%). Eliminating the mortgage interest
+deduction encourages prepayment, so the premium on the MBS falls. This is an
+example of contraction risk.
+
+The impact on the price of an MBS with a 3-percent coupon is uncertain. Since
+the coupon rate (3%) is below-market (4%), borrowers are less likely to prepay.
+There may be some borrowers who prepay in response to the loss of the mortgage
+interest deduction. However, the amount of prepayment is limited since borrowers
+prefer to remain locked in to the lower rate. This is an example of extension
+risk for the lender. The impact on the price of this MBS is likely minimal.
+
+The 3-percent coupon MBS is less sensitive to the tax-law change than the
+6-percent coupon MBS.
+
+### Short Question 2 Part C
+
+> What do you think would happen to the size of new loans that are originated
+> after the announcement? Going forward, would this likely increase or decrease
+> the interest rate sensitivity of prepayments?
+
+New loans that originate after the announcement would likely be smaller than
+similar loans that originated before the announcement. Without the mortgage
+interest deduction, borrowers can afford smaller mortgage payments for the same
+income and budget levels.
+
+Yes, going forward, the interst rate sensitivity of prepayments would increase.
+With the deduction, borrowers are only exposed to a fraction of the change in
+interest rate (that is, the after-tax interest rate $r(1-\tau)$). Without the
+mortgage interest rate deduction, borrowers are completely exposed to
+fluctuations in the interest rate ($r$). As a result, they are more
+rate-sensitive and more motivated to change their prepayment behavior in
+response to changes in the interest rate.
+
 ## Short Question 3
+
+> Suppose you own an MBS pool with a coupon of 6%. Plot a graph of the value of
+> the MBS (on the $y$-axis) against current market yields (on the $x$-axis),
+> under 3 different assumptions about the prepayment behavior of the borrowers
+> in the pool.
+
+### Short Question 3 Part A
+
+> They exhibit typical prepayment behavior, as observed empirically.
+
+### Short Question 3 Part B
+
+> They hardly ever prepay, and prepayments are not at all sensitive to interest
+> rates. Assume the CPR is 2% no matter where current rates are.
+
+### Short Question 3 Part C
+
+> They are perfectly efficient prepayment robots: all of them prepay as soon as
+> yields drop below the coupon rate, and none of them prepay when yields are
+> above the coupon rate.
 
 ## Short Question 4
 
