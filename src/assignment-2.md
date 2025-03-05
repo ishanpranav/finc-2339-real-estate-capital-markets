@@ -119,8 +119,8 @@ suffers.
 ### Problem 1 Part D
 
 > Go back to the original information in the question (ignoring Parts B and C).
-> Imagine that market interest rates suddenly rise from 3.0% to 5.0%. What gain or
-> loss will your hedge fund experience, expressed as a percentage of the
+> Imagine that market interest rates suddenly rise from 3.0% to 5.0%. What gain
+> or loss will your hedge fund experience, expressed as a percentage of the
 > original market value of your mortgage investment, assuming that borrower
 > prepayment behavior does not change?
 
@@ -168,10 +168,11 @@ extension risk. Extension risk is a form of prepayment risk where the increase
 in interest rates leads to a fall in prepayments.
 
 As market interest rates rise, borrowers are less willing to refinance their
-mortgages, so prepayments decrease.
+mortgages, so prepayments decrease. The lender is locked into a fixed coupon
+rate (in Part D, 4.5 percent) that is less than the market interest rate (3.0
+percent), so the MBS trades at a discount.
 
-In Part D, the interest rate rises above the coupon rate, so the MBS trades at a
-discount. The change in prepayment behavior is bad news for an MBS investor,
+The change in prepayment behavior is bad news for an MBS investor,
 since it causes the value of the MBS to fall more quickly than it otherwise
 would in response to the increase in interest rates.
 
