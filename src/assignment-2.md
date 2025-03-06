@@ -83,22 +83,18 @@ response to changes in the interest rate.
 > Suppose you own an MBS pool with a coupon of 6%. Plot a graph of the value of
 > the MBS (on the $y$-axis) against current market yields (on the $x$-axis),
 > under 3 different assumptions about the prepayment behavior of the borrowers
-> in the pool.
-
-### Short Question 3 Part A
-
-> They exhibit typical prepayment behavior, as observed empirically.
-
-### Short Question 3 Part B
-
-> They hardly ever prepay, and prepayments are not at all sensitive to interest
-> rates. Assume the CPR is 2% no matter where current rates are.
-
-### Short Question 3 Part C
-
-> They are perfectly efficient prepayment robots: all of them prepay as soon as
-> yields drop below the coupon rate, and none of them prepay when yields are
+> in the pool:
+>
+> (a) They exhibit typical prepayment behavior, as observed empirically.
+>
+> (b) They hardly ever prepay, and prepayments are not at all sensitive to
+> interest rates. Assume the CPR is 2% no matter where current rates are.
+>
+> (c) They are perfectly efficient prepayment robots: All of them prepay as soon
+> as yields drop below the coupon rate, and none of them prepay when yields are
 > above the coupon rate.
+
+![Comparison of prepayment assumptions on price-yield relation](https://github.com/ishanpranav/finc-2339-real-estate-capital-markets/blob/master/images/assignment-2.png?raw=true "Comparison of prepayment assumptions on price-yield relation")
 
 ## Short Question 4
 
