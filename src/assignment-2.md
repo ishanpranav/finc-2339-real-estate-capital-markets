@@ -449,5 +449,3 @@ as the cash flows do not change.
 
 As investors, the cost of credit risk is included in the guarantee fee: Our
 cash flows are insured against default.
-
-### Problem 2 Part H
