@@ -396,7 +396,7 @@ The peak SMM is $1-(1-12\%)^{\frac{1}{12}}\approx 1.0596\%.$
 
 ### Problem 2 Part C
 
-We reference the [spreadsheet](https://ishanpranav.github.com/finc-2339-real-estate-capital-markets/assignment-2.xslx)
+We reference the [spreadsheet](https://ishanpranav.github.io/finc-2339-real-estate-capital-markets/assignment-2.xslx)
 attached, which indicates the total amount of principal payments, interest
 payments, servicing and guarantee payments, and prepayments, for each month over
 the life of the pool.
