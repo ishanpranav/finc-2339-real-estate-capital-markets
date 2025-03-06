@@ -181,7 +181,7 @@ After a disaster like Maria in Puerto Rico, private lenders would likely deem
 the region too risky and be less eager to originate mortgages or abandon the
 market entirely.
 
-Meanwhile, GSEs would be responsible for recovering the local economy and
+Meanwhile, GSEs would be responsible for recovering the local economy and would
 subsidize housing in affected areas. The mandate of GSEs is to satisfy mortgage
 demand where private markets fail to do so, so their share of originations would
 increase.
@@ -407,7 +407,7 @@ the life of the pool.
 > Is this pool trading at a discount or a premium? Why?
 
 Assuming a discount rate of 5 percent, the NPV of investor cash flows is
-$286,550,548.43, or about $286M.
+$286,550,548.43, or about $287M.
 
 Since the MBS investor coupon rate (4%) is less than the discount rate (5%), we
 know that this mortgage pool is trading at a discount.
@@ -419,7 +419,7 @@ know that this mortgage pool is trading at a discount.
 
 Since the MBS investor coupon rate (4%) is equal to the discount rate (4%), this
 mortgage is trading at par. Thus, the NPV of investor cash flows is exactly
-$300M. Recomputing the cash flows and NPV confirms this result.
+$300M. Recomputing the NPV confirms this result.
 
 ### Problem 2 Part F
 
@@ -445,7 +445,40 @@ investor, there is no credit risk or credit loss as a result of mortgage
 defaults.
 
 The defaults would be neither good news nor bad news (we would be indifferent),
-as the cash flows do not change.
+as the cash flows do not change: We assume that agency MBS investors receive all
+the scheduled principal and interest payments.
+
+If instead we assume that we receive the principal payments immediately upon
+default, this would be good news. This is because the agency MBS is trading at a
+discount (below par) and we are receiving the full (par) amount, which increases
+our NPV. It is especially good news because we can now reinvest our returned
+capital at a higher interest rate.
 
 As investors, the cost of credit risk is included in the guarantee fee: Our
 cash flows are insured against default.
+
+### Problem 2 Part H
+
+> Calculate the new NPV of the pool under the assumption in part G, assuming a
+> discount rate of 5% per year. Assume for simplicity that face value of the
+> mortgages that default is returned to the investor without any time lag.
+> Compare your answer to what you calculated in part D, and confirm that it is
+> consistent with your answer and explanation from part G above.
+
+In Part G, we assumed that investors receive their scheduled payments of
+interest and principal upon default.
+
+In Part H, we assume that the full principal amount is returned immediately upon
+default. This means that the second case of Part G applies: Since the MBS is
+trading at a discount to par, our NPV increases when borrowers default because
+we receive par.
+
+Based on the second sheet of our
+[spreadsheet](https://ishanpranav.github.io/finc-2339-real-estate-capital-markets/assignment-2.xlsx),
+we notice that in the default case the NPV of investor cash flows increases to
+$289,950,264.51, or about $290M, up from $287M with no defaults. This is because
+our cash flows arrive sooner and our discount rate is higher than our coupon
+rate.
+
+The news is especially good since we can now reinvest our returned capital at
+the higher interest rate.
