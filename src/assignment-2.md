@@ -94,9 +94,96 @@ response to changes in the interest rate.
 > as yields drop below the coupon rate, and none of them prepay when yields are
 > above the coupon rate.
 
-![Comparison of prepayment assumptions on price-yield relation](https://github.com/ishanpranav/finc-2339-real-estate-capital-markets/blob/master/images/assignment-2.png?raw=true "Comparison of prepayment assumptions on price-yield relation")
+![Comparison of prepayment assumptions on price-yield relation](https://github.com/ishanpranav/finc-2339-real-estate-capital-markets/blob/master/images/assignment-2.jpeg?raw=true "Comparison of prepayment assumptions on price-yield relation")
+
+__Comparison of prepayment assumptions on the price-yield relation.__
 
 ## Short Question 4
+
+We will reference
+["Comradely capitalism"](https://www.economist.com/briefing/2016/08/20/comradely-capitalism)
+published in *The Economist*,
+["The Mortgage Market's $1 Trillion Pocket of Worry"](https://www.wsj.com/articles/the-mortgage-markets-1-trillion-pocket-of-worry-1484827201?msockid=1160542f41e96ed30ee645d040076fd7)
+by AnnaMaria Andriotis, published in *The Wall Street Journal*, and
+["The Case For Housing Finance Reform"](https://www.federalreserve.gov/newsevents/speech/powell20170706a.htm),
+a speech delivered by Jerome Powell.
+
+### Short Question 4 Part A
+
+> What does "Comradely capitalism" refer to? How well capitalized is the
+> mortgage system compared to banks?
+
+"Comradely capitalism" refers to the administrative role of the government in
+the mortgage market. *The Economist* argues that "the supply of mortgages in
+America has an air of distinctly socialist command-and-control about it" and
+that there should be a path for government-sponsored enterprises (GSEs) like
+Fannie Mae and Freddie Mac to be released from conservatorship. Currently, GSEs
+play a cdentral role in packaging and guaranteeing home loans. This hybrid
+structure integrates state support into the market economy, making the mortgage
+market heavily reliant on the government.
+
+### Short Question 4 Part B
+
+> What are estimates of potential losses to Fannie Mae, Freddie Mac and the
+> Federal Housing Administration (FHA) in another housing crash?
+
+If there were another severe housing downturn like that of the Global Financial
+Crisis (GFC), the projected losses for Fannie, Freddie, and the FHA would range
+from 2 to 4 percent of U.S. gross domestic product, or between $300 and $600
+billion at the time of the article's publication.
+
+Taxpayers would bear these losses, since the government explicitly or implicitly
+guarantees most of the risk associated with these mortgage institutions.
+
+### Short Question 4 Part C
+
+> What is troubling about FHA loans and nonbank lenders?
+
+FHA loans and nonbank lenders are exposed to graeter financial risk since they
+tend to extend mortgages with higher loan-to-value ratios and to borrowers with
+lower credit scores.
+
+Nonbank lenders have less stringent capital and liquidity requirements, since
+they are not subject to the same post-GFC regulations as the banking sector.
+
+It is troubling that these institutions are exposed to riskier mortgages yet
+have less secure balance sheets—and that the American taxpayers are the
+equityholders who bear this risk.
+
+### Short Question 4 Part D
+
+> Where does Jerome Powell chiefly lay the blame for the housing finance boom
+> (and presumably, the subsequent crash) of the 2000s?
+
+Jerome Powell blames bad incentives in the financial system, specifically for
+the GSEs and private-label securitizations. Although the government provided no
+legal guarantee on mortgages owned by Fannie and Freddie, financial markets
+"priced in" an implicit guarantee on the assumption that these institutions were
+"too big to fail." As a result, underwriting standards declined, due diligence
+was substandard or nonexistent, and the housing market, along with associated
+capital markets, boomed with the influx of new mortgages.
+
+Ultimately, the relaxation of underwriting standards generated short-term
+profits at the cost of total economic collapse.
+
+### Short Question 4 Part E
+
+> Would you reason that government-sponsored or guaranteed (e.g. FHA)
+originations make up a bigger or smaller share of total residential mortgage
+originations after a disaster or crisis hits, for example in Puerto Rico before
+compared to after Maria?
+
+After a crisis, we expect that government-sponsored or guaranteed originations
+make up a larger share of total resedential originations.
+
+After a disaster like Maria in Puerto Rico, private lenders would likely deem
+the region too risky and be less eager to originate mortgages or abandon the
+market entirely.
+
+Meanwhile, GSEs would be responsible for recovering the local economy and
+subsidize housing in affected areas. The mandate of GSEs is to satisfy mortgage
+demand where private markets fail to do so, so their share of originations would
+increase.
 
 ## Problem 1
 
