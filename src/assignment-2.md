@@ -403,8 +403,8 @@ the life of the pool.
 
 ### Problem 2 Part D
 
-> Assuming a discount rate of 5% per year, what is the NPV of this mortgage pool?
-> Is this pool trading at a discount or a premium? Why?
+> Assuming a discount rate of 5% per year, what is the NPV of this mortgage
+> pool? Is this pool trading at a discount or a premium? Why?
 
 Assuming a discount rate of 5 percent, the NPV of investor cash flows is
 $286,550,548.43, or about $287M.
