@@ -41,8 +41,9 @@ purchasing assets.
 ### Short Question 2 Part B
 
 > Assume current mortgage rates are at 4%. The day of the announcement, what do
-> you think would happen to the price of a fixed-rate passthrough MBS with a 6%
-> coupon? What about an MBS with a 3% coupon?
+> you think would happen to the price of a fixed-rate passthrough
+> mortgage-backed security (MBS) with a 6% coupon? What about an MBS with a 3%
+> coupon?
 
 The price of a fixed-rate passthrough MBS with a 6-percent coupon would decline:
 Its coupon rate (6%) is above-market (4%). Eliminating the mortgage interest
@@ -187,12 +188,12 @@ increase.
 
 ## Problem 1
 
-> Your hedge fund owns a mortgage-backed securities (MBS) pool backed by
-> fully-amortizing fixed-rate mortgages with a coupon interest rate of 4.5%, and
-> a remaining maturity of 26 years. Based on your analysis of past prepayment
-> data, you currently expect all the mortgages in the pool to prepay fully in
-> five years’ time. The market interest rate (used for discounting future cash
-> flows) is 3.0%. Mortgage payments are monthly, as usual.
+> Your hedge fund owns an MBS pool backed by fully-amortizing fixed-rate
+> mortgages (FRMs) with a coupon interest rate of 4.5%, and a remaining maturity
+> of 26 years. Based on your analysis of past prepayment data, you currently
+> expect all the mortgages in the pool to prepay fully in five years’ time. The
+> market interest rate (used for discounting future cash flows) is 3.0%.
+> Mortgage payments are monthly, as usual.
 
 ### Problem 1 Part A
 
@@ -352,3 +353,101 @@ Fannie Mae and Freddie Mac, have lower risk since they are backed by the U.S.
 government, whereas non-agency MBS pools are more exposed to market conditions.
 During a crisis, the market for agency MBS would likely remain more liquid
 because of their government backing.
+
+## Problem 2
+
+> Consider an agency MBS pool consisting of $300M of 15 year FRMs with a
+> mortgage coupon rate of 4.5%. Mortgage payments are monthly. Assume a
+> servicing and guarantee fee of 50bp per year (combined) for this pool.
+>
+> Assume that this pool prepays at 200% PSA (benchmark of the Public Securities
+> Association) throughout its life.
+
+### Problem 2 Part A
+
+> What is the net coupon rate paid to MBS investors?
+
+The net MBS coupon payment is $4.5\%-0.5\%=4.0\%.$
+
+### Problem 2 Part B
+
+> What is the SMM on this pool in the first month? What is the peak SMM for this
+> pool over its life?
+
+The single-month mortality rate (SMM) is the fraction of the mortgage pool that
+is prepaid in full during a given month.
+
+We can compute the CPR for the first month and use it to derive the SMM.
+
+In month $1$, the CPR is the PSA level multiplied by the factor
+$\frac{1\times 0.2}{100}$, so the CPR is
+$200\%\times\frac{1\times 0.2}{100}=0.4\%$.
+
+In the first month, the SMM is $1-(1-0.4\%)^{\frac{1}{12}}\approx 0.0334\%.$
+
+Using the PSA prepayment model, the conditional prepayment rate (CPR) peaks at
+month 30. We can compute the peak CPR, then derive the peak SMM from it.
+
+In month $30$, the CPR is the PSA level multiplied by the factor
+$\frac{30\times 0.2}{100}$, so the CPR is
+$200\%\times\frac{30\times 0.2}{100}=12\%.$
+
+The peak SMM is $1-(1-12\%)^{\frac{1}{12}}\approx 1.0596\%.$
+
+### Problem 2 Part C
+
+We reference the [spreadsheet](https://ishanpranav.github.com/finc-2339-real-estate-capital-markets/assignment-2.xslx)
+attached, which indicates the total amount of principal payments, interest
+payments, servicing and guarantee payments, and prepayments, for each month over
+the life of the pool.
+
+### Problem 2 Part D
+
+> Assuming a discount rate of 5% per year, what is the NPV of this mortgage pool?
+> Is this pool trading at a discount or a premium? Why?
+
+Assuming a discount rate of 5 percent, the NPV of investor cash flows is
+$286,550,548.43, or about $286M.
+
+Since the MBS investor coupon rate (4%) is less than the discount rate (5%), we
+know that this mortgage pool is trading at a discount.
+
+### Problem 2 Part E
+
+> If the discount rate falls to 4%, what is the new NPV of the pool, assuming
+> there is no change in the SMM.
+
+Since the MBS investor coupon rate (4%) is equal to the discount rate (4%), this
+mortgage is trading at par. Thus, the NPV of investor cash flows is exactly
+$300M. Recomputing the cash flows and NPV confirms this result.
+
+### Problem 2 Part F
+
+> Do you think this assumption that the SMM does not change is realistic? Why?
+
+No, the assumption that the SMM does not change is unrealistic. The change in
+the discount rate from 5% to 4% corresponds to a decline in the borrower's
+interest rate. As a result, prepayment would increase as borrowers prefer to
+refinance at the lower rate.
+
+The SMM would increase as a result of increased prepayment.
+
+### Problem 2 Part G
+
+> Now (under the discount rate assumption in Part D) assume that all borrowers
+> that have not prepaid within the first five 5 years default on their mortgages
+> at year 5 (i.e. after 60 months). What is the credit loss to you as an
+> investor? Would these defaults be good news or bad news for you, or would you
+> be indifferent? Explain intuitively (no calculations required).
+
+Since this is an agency MBS pool, the mortgages are guaranteed by a GSE. As an
+investor, there is no credit risk or credit loss as a result of mortgage
+defaults.
+
+The defaults would be neither good news nor bad news (we would be indifferent),
+as the cash flows do not change.
+
+As investors, the cost of credit risk is included in the guarantee fee: Our
+cash flows are insured against default.
+
+### Problem 2 Part H
