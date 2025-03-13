@@ -71,13 +71,18 @@ similar loans that originated before the announcement. Without the mortgage
 interest deduction, borrowers can afford smaller mortgage payments for the same
 income and budget levels.
 
-Yes, going forward, the interst rate sensitivity of prepayments would increase.
+Yes, going forward, the interest rate sensitivity of prepayments would increase.
 With the deduction, borrowers are only exposed to a fraction of the change in
 interest rate (that is, the after-tax interest rate $r(1-\tau)$). Without the
 mortgage interest rate deduction, borrowers are completely exposed to
 fluctuations in the interest rate ($r$). As a result, they are more
 rate-sensitive and more motivated to change their prepayment behavior in
 response to changes in the interest rate.
+
+The long-run effect is that borrowers will take out smaller loans. In the long
+term, prepayment on smaller loans is less sensitive to interest rates than on
+larger ones, since the upfront fixed costs of refinancing are more likely to
+outweight the benefits.
 
 ## Short Question 3
 

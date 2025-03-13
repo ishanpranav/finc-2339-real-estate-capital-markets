@@ -281,10 +281,12 @@ prepay), prefer not to buy points on a fixed-rate mortgage.
 
 > Are prepayment penalties common for this type of loan?
 
-Yes prepayment penalties are common for fixed-rate mortgages, especially during
-the first few years of the loan, to create friction for borrowers when
-refinancing. Frequent refinancing creates costs and reinvestment risks for
-lenders, so the penalties increase the effective rate in these cases.
+No, prepayment penalties are not common for prime residential mortgages.
+However, refinancing transaction costs generally create friction for borrowers
+upon prepayment.
+
+Prepayment penalties were common for subprime borrowers during the mortgage boom
+and are still present in the commercial mortgage market.
 
 ## Problem 3
 
