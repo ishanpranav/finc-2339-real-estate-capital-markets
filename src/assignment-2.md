@@ -241,11 +241,9 @@ The immediate payments amount to 10% of the remaining balance.
 The new cash flow is the payment received from the 90% of the mortgages which
 survived the initial prepayment:
 
-$$C=\text{pmt}\left(r=\frac{4.5\%}{12},n=26\times 12,V=90\%\right)\approx 0.4899\dots\%.$$
-
 Again, we determine the remaining principal at the time of prepayment:
 
-$$V_3=\text{pv}\left(r=\frac{4.5\%}{12},n=(26-3)\times 12,C=0.4899\dots\%\right)\approx 84.1388\dots\%.$$
+$$V_3=\text{pv}\left(r=\frac{4.5\%}{12},n=(26-3)\times 12,C=0.5443\dots\%\right)\approx 93.4875\dots\%.$$
 
 The market price is the sum of the immediate prepayments (10 percent of the par
 value), the present value of three years' worth of payments, and the present
@@ -254,14 +252,14 @@ value of the remaining principal balance in three years.
 $$\begin{align*}
 V_0'
 &=10\%\\
-&+\text{pv}\left(r=\frac{3.0\%}{12},n=3\times 12,C=0.4899\dots\%\right)\\&+\text{pv}\left(r=\frac{3.0\%}{12},n=3\times 12,C=0,V_5=84.1388\dots\%\right)\\
-&\approx 93.7516\dots\%\\
-&\approx 93~\frac{24}{32}\%.\
+&+90\%\times\text{pv}\left(r=\frac{3.0\%}{12},n=3\times 12,C=0.5443\dots\%,V_5=93.4875\dots\%\right)\\
+&\approx 103.7507\dots\%\\
+&\approx 104~\frac{24}{32}\%.\
 \end{align*}$$
 
-The hedge fund will experience a loss of about 12 percent.
+The hedge fund will experience a loss of about 2 percent.
 
-$$\left(\frac{93.7516\%}{106.5923\%}\right)-1\approx -12.0466\dots\%.$$
+$$\left(\frac{103.7507\%}{106.5923\%}\right)-1\approx -2.6659\dots\%.$$
 
 ## Problem 1 Part C
 
@@ -449,15 +447,11 @@ Since this is an agency MBS pool, the mortgages are guaranteed by a GSE. As an
 investor, there is no credit risk or credit loss as a result of mortgage
 defaults.
 
-The defaults would be neither good news nor bad news (we would be indifferent),
-as the cash flows do not change: We assume that agency MBS investors receive all
-the scheduled principal and interest payments.
-
-If instead we assume that we receive the principal payments immediately upon
-default, this would be good news. This is because the agency MBS is trading at a
-discount (below par) and we are receiving the full (par) amount, which increases
-our NPV. It is especially good news because we can now reinvest our returned
-capital at a higher interest rate.
+If we assume that we receive the principal payments immediately upon default,
+this would be good news. This is because the agency MBS is trading at a discount
+(below par) and we are receiving the full (par) amount, which increases our NPV.
+It is especially good news because we can now reinvest our returned capital at a
+higher interest rate.
 
 As investors, the cost of credit risk is included in the guarantee fee: Our
 cash flows are insured against default.
