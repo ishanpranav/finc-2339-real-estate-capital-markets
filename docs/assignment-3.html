@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>Assignment 2</title>
+            <style>
+/* From extension vscode.github */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+.vscode-dark img[src$=\#gh-light-mode-only],
+.vscode-light img[src$=\#gh-dark-mode-only],
+.vscode-high-contrast:not(.vscode-high-contrast-light) img[src$=\#gh-light-mode-only],
+.vscode-high-contrast-light img[src$=\#gh-dark-mode-only] {
+	display: none;
+}
+
+</style>
+            
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+<style>
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif;
+                font-size: 14px;
+                line-height: 1.6;
+            }
+        </style>
+        <style>
+.task-list-item {
+    list-style-type: none;
+}
+
+.task-list-item-checkbox {
+    margin-left: -20px;
+    vertical-align: middle;
+    pointer-events: none;
+}
+</style>
+<style>
+:root {
+  --color-note: #0969da;
+  --color-tip: #1a7f37;
+  --color-warning: #9a6700;
+  --color-severe: #bc4c00;
+  --color-caution: #d1242f;
+  --color-important: #8250df;
+}
+
+</style>
+<style>
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-note: #2f81f7;
+    --color-tip: #3fb950;
+    --color-warning: #d29922;
+    --color-severe: #db6d28;
+    --color-caution: #f85149;
+    --color-important: #a371f7;
+  }
+}
+
+</style>
+<style>
+.markdown-alert {
+  padding: 0.5rem 1rem;
+  margin-bottom: 16px;
+  color: inherit;
+  border-left: .25em solid #888;
+}
+
+.markdown-alert>:first-child {
+  margin-top: 0
+}
+
+.markdown-alert>:last-child {
+  margin-bottom: 0
+}
+
+.markdown-alert .markdown-alert-title {
+  display: flex;
+  font-weight: 500;
+  align-items: center;
+  line-height: 1
+}
+
+.markdown-alert .markdown-alert-title .octicon {
+  margin-right: 0.5rem;
+  display: inline-block;
+  overflow: visible !important;
+  vertical-align: text-bottom;
+  fill: currentColor;
+}
+
+.markdown-alert.markdown-alert-note {
+  border-left-color: var(--color-note);
+}
+
+.markdown-alert.markdown-alert-note .markdown-alert-title {
+  color: var(--color-note);
+}
+
+.markdown-alert.markdown-alert-important {
+  border-left-color: var(--color-important);
+}
+
+.markdown-alert.markdown-alert-important .markdown-alert-title {
+  color: var(--color-important);
+}
+
+.markdown-alert.markdown-alert-warning {
+  border-left-color: var(--color-warning);
+}
+
+.markdown-alert.markdown-alert-warning .markdown-alert-title {
+  color: var(--color-warning);
+}
+
+.markdown-alert.markdown-alert-tip {
+  border-left-color: var(--color-tip);
+}
+
+.markdown-alert.markdown-alert-tip .markdown-alert-title {
+  color: var(--color-tip);
+}
+
+.markdown-alert.markdown-alert-caution {
+  border-left-color: var(--color-caution);
+}
+
+.markdown-alert.markdown-alert-caution .markdown-alert-title {
+  color: var(--color-caution);
+}
+
+</style>
+        
+        </head>
+        <body class="vscode-body vscode-light">
+            <h1 id="assignment-2">Assignment 2</h1>
+<p>Ishan Pranav, Yerim Ryoo, and Pavan Chand</p>
+<p>April 3, 2025</p>
+<p>Professor Arpit Gupta</p>
+<p>FINC 2339 Real Estate Capital Markets</p>
+<h2 id="short-question-1-agency-mbs-valuations">Short Question 1: Agency MBS valuations</h2>
+<h3 id="short-question-1-part-a">Short Question 1 Part A</h3>
+<blockquote>
+<p>What is the difference between the columns “Bond” and “WAC?” Why is WAC higher
+than Bond? What does the difference between the two represent?</p>
+</blockquote>
+<h3 id="short-question-2-default-risk-based-on-mortgage-observable-characteristics">Short Question 2: Default risk based on mortgage observable characteristics</h3>
+<p>The mortgages below are ranked in descending order of credit risk, from riskiest
+to least risky.</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>CLTV</th>
+<th>FICO</th>
+<th>DTI</th>
+<th>Lien</th>
+<th>Income documentation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>d.</td>
+<td>90%</td>
+<td>620</td>
+<td>36</td>
+<td>Second</td>
+<td>None</td>
+</tr>
+<tr>
+<td>b.</td>
+<td>90%</td>
+<td>660</td>
+<td>36</td>
+<td>Second</td>
+<td>Partial</td>
+</tr>
+<tr>
+<td>g.</td>
+<td>80%</td>
+<td>680</td>
+<td>34</td>
+<td>Second</td>
+<td>Partial</td>
+</tr>
+<tr>
+<td>f.</td>
+<td>80%</td>
+<td>680</td>
+<td>34</td>
+<td>First</td>
+<td>Partial</td>
+</tr>
+<tr>
+<td>e.</td>
+<td>80%</td>
+<td>680</td>
+<td>32</td>
+<td>First</td>
+<td>Partial</td>
+</tr>
+<tr>
+<td>a.</td>
+<td>80%</td>
+<td>680</td>
+<td>32</td>
+<td>First</td>
+<td>Full</td>
+</tr>
+<tr>
+<td>c.</td>
+<td>70%</td>
+<td>730</td>
+<td>28</td>
+<td>First</td>
+<td>Full</td>
+</tr>
+</tbody>
+</table>
+
+            
+            
+        </body>
+        </html>
