@@ -15,7 +15,7 @@ FINC 2339 Real Estate Capital Markets
 > What is the difference between the columns “Bond” and “WAC?” Why is WAC higher
 > than Bond? What does the difference between the two represent?
 
-### Short Question 2: Default risk based on mortgage observable characteristics
+## Short Question 2: Default risk based on mortgage observable characteristics
 
 The mortgages below are ranked in descending order of credit risk, from riskiest
 to least risky.
