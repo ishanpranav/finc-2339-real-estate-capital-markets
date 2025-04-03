@@ -287,18 +287,26 @@ attached calculates how the cash flows are split between the four securities.
 > tranche (including the NPV of the servicing and guarantee fee strip)? Explain
 > why the NPV of each tranche changes as it does.
 
-Increasing prepayment reduces the NPV of the interest payments and servicing and
-guarantee fees, since these series of cash flows are terminated earlier.
+A higher PSA indicates faster prepayments by borrowers, reducing the duration of
+the morgage pool investment.
 
-Thus, the A tranche, the interest-only portion of the B tranche, and the
-servicing and guarantee fee strip all decrease in value.
+The mortgage pool currently trades at a premium since its coupon of 3.5 percent
+is greater than the discount rate of 3.25 percent.As a result, prepayment is
+detrimental to investors, as well as the recipients of the servicing and
+guarantee cash flows. The NPV of every tranche declines, except for the
+principal-only B tranche.
 
-The impact on the A tranche is negative because the security trades at a
-premium, but the premium is eroded faster when prepayment increases.
+The impact is most detrimental to the Z-tranche investors, since this tranche
+has the highest duration by construction. Tranche Z is extremely exposed to
+prepayment risks.
 
-However, the principal-only component of the B tranche and the overall Z tranche
-both increase in value since they now receive their cash flows earlier. For
-these securities, the timing of the cash flows is the only contributing factor.
+The principal-only B tranche increases in NPV since prepayment results in this
+tranche receives its cash flows sooner. For this tranche, truncating the stream
+of cash flows early does not hurt the investors.
+
+Finally, the servicing and guarantee fee cash flow stream declines in NPV
+because this series of cash flows (like the interest-only component of the B
+tranche) terminates early.
 
 | Tranche | | NPV |
 |---------|--|----:|
