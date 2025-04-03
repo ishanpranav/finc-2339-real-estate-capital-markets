@@ -2,7 +2,7 @@
         <html>
         <head>
             <meta charset="UTF-8">
-            <title>Assignment 2</title>
+            <title>Assignment 3</title>
             <style>
 /* From extension vscode.github */
 /*---------------------------------------------------------------------------------------------
@@ -18,7 +18,8 @@
 }
 
 </style>
-            
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.css">
+<link href="https://cdn.jsdelivr.net/npm/katex-copytex@latest/dist/katex-copytex.min.css" rel="stylesheet" type="text/css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
 <style>
@@ -138,7 +139,7 @@
         
         </head>
         <body class="vscode-body vscode-light">
-            <h1 id="assignment-2">Assignment 2</h1>
+            <h1 id="assignment-3">Assignment 3</h1>
 <p>Ishan Pranav, Yerim Ryoo, and Pavan Chand</p>
 <p>April 3, 2025</p>
 <p>Professor Arpit Gupta</p>
@@ -163,6 +164,8 @@ Servicing and guarantee fees, as well as any excess costs, account for the
 spread between the WAC rate and the Bond rate. Also, bond rates must be aligned
 to fixed intervals, such as 50 bps, whereas the weighted average coupon is a
 precise figure.</p>
+<p>Another explanation is that the mortgage pool may contain underlying loans with
+diverse characterists, such as a mix of older loans with interest rates that are different from newer ones.</p>
 <h3 id="short-question-1-part-b">Short Question 1 Part B</h3>
 <blockquote>
 <p>Average loan size is lower for higher coupons. Why do you think that is?</p>
@@ -171,6 +174,14 @@ precise figure.</p>
 are rate-sensitive and are averse to higher coupons. Holding borrowers' budgets
 fixed, during periods of high interest rates they must take lower loan balances
 to keep their monthly payments affordable.</p>
+<p>This explanation is supported by the weighted-average loan age (WALA) column.
+Higher coupon rates (both bond and weighted-average coupons) tend to correspond
+to higher weighted-average loan ages. This implies that the lower-rate mortgages
+are newer. We conclude that interest rates are falling, and that borrowers are
+refinancing toward lower-rate mortgages.</p>
+<p>Intuitively, the newer loans in the lower-rate environment have higher balances
+since lower rates allow borrwers to take out a larger balance for the same
+monthly payment.</p>
 <h3 id="short-question-1-part-c">Short Question 1 Part C</h3>
 <blockquote>
 <p>Is the reported yield (or the yield spread to Treasuries) a good measure to
@@ -366,8 +377,143 @@ to least risky.</p>
 </tbody>
 </table>
 <h2 id="problem-1-cmo-spreadsheet">Problem 1: CMO spreadsheet</h2>
+<blockquote>
+<p>Consider the following mortgage pool:</p>
+<p>The mortgage collateral consists of $275M of 30 year FRMs with a weighted
+average coupon of 4.2%. Assume that prepayment on the pool is consistent with
+a 150 PSA assumption. The servicing and guarantee fee on this pool is 70 basis
+points. Mortgage payments are monthly, as usual.</p>
+<p>Consider the following CMO structure:</p>
+<p>The pool consists of three classes, an A class of $100M, a B class of $125M,
+and a Z class of $50M. All three classes pay a 3.5% net coupon rate. The B
+class is further split into an IO tranche and a PO tranche. (Thus, there are
+four securities, an A class security, a B class IO security, a B class PO
+security, and a Z bond).</p>
+</blockquote>
+<h3 id="problem-1-part-a">Problem 1 Part A</h3>
+<p>We reference the
+<a href="https://ishanpranav.github.io/finc-2339-real-estate-capital-markets/assignment-3.xlsx">spreadsheet</a>
+attached, which indicates the total cash flows paid out over the life of this
+MBS pool, including the cash flows that accrue to investors and the cash flows
+paid as servicing and guarantee fees.</p>
+<h3 id="problem-1-part-b">Problem 1 Part B</h3>
+<p>Our
+<a href="https://ishanpranav.github.io/finc-2339-real-estate-capital-markets/assignment-3.xlsx">spreadsheet</a>
+attached calculates how the cash flows are split between the four securities.</p>
+<h3 id="problem-1-part-c">Problem 1 Part C</h3>
+<blockquote>
+<p>Assume that the relevant discount rate for valuing these cash flows is 3.25%.
+What is the NPV of each tranche?</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>Tranche</th>
+<th></th>
+<th style="text-align:right">NPV</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>A</strong></td>
+<td></td>
+<td style="text-align:right"><strong>100,621,262</strong></td>
+</tr>
+<tr>
+<td>B</td>
+<td>Interest only</td>
+<td style="text-align:right">30,074,850</td>
+</tr>
+<tr>
+<td>B</td>
+<td>Principal only</td>
+<td style="text-align:right">97,073,353</td>
+</tr>
+<tr>
+<td><strong>B</strong></td>
+<td></td>
+<td style="text-align:right"><strong>127,148,204</strong></td>
+</tr>
+<tr>
+<td><strong>Z</strong></td>
+<td></td>
+<td style="text-align:right"><strong>52,099,841</strong></td>
+</tr>
+<tr>
+<td><strong>—</strong></td>
+<td>Servicing and guarantee fee</td>
+<td style="text-align:right"><strong>13,825,669</strong></td>
+</tr>
+<tr>
+<td><strong>—</strong></td>
+<td><strong>Total</strong></td>
+<td style="text-align:right"><strong>293,694,976</strong></td>
+</tr>
+</tbody>
+</table>
+<h3 id="problem-1-part-d">Problem 1 Part D</h3>
+<blockquote>
+<p>Change the prepayment assumption to 250 PSA. What happens to the NPV of each
+tranche (including the NPV of the servicing and guarantee fee strip)? Explain
+why the NPV of each tranche changes as it does.</p>
+</blockquote>
+<p>Increasing prepayment reduces the NPV of the interest payments and servicing and
+guarantee fees, since these series of cash flows are terminated earlier.</p>
+<p>Thus, the A tranche, the interest-only portion of the B tranche, and the
+servicing and guarantee fee strip all decrease in value.</p>
+<p>The impact on the A tranche is negative because the security trades at a
+premium, but the premium is eroded faster when prepayment increases.</p>
+<p>However, the principal-only component of the B tranche and the overall Z tranche
+both increase in value since they now receive their cash flows earlier. For
+these securities, the timing of the cash flows is the only contributing factor.</p>
+<table>
+<thead>
+<tr>
+<th>Tranche</th>
+<th></th>
+<th style="text-align:right">NPV</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>A</strong></td>
+<td></td>
+<td style="text-align:right"><strong>100,495,604</strong></td>
+</tr>
+<tr>
+<td>B</td>
+<td>Interest only</td>
+<td style="text-align:right">22,714,910</td>
+</tr>
+<tr>
+<td>B</td>
+<td>Principal only</td>
+<td style="text-align:right">103,907,584</td>
+</tr>
+<tr>
+<td><strong>B</strong></td>
+<td></td>
+<td style="text-align:right"><strong>126,622,494</strong></td>
+</tr>
+<tr>
+<td><strong>Z</strong></td>
+<td></td>
+<td style="text-align:right"><strong>51,624,049</strong></td>
+</tr>
+<tr>
+<td><strong>—</strong></td>
+<td>Servicing and guarantee fee</td>
+<td style="text-align:right"><strong>10,505,302</strong></td>
+</tr>
+<tr>
+<td><strong>—</strong></td>
+<td><strong>Total</strong></td>
+<td style="text-align:right"><strong>289,247,448</strong></td>
+</tr>
+</tbody>
+</table>
 
-            
+            <script async src="https://cdn.jsdelivr.net/npm/katex-copytex@latest/dist/katex-copytex.min.js"></script>
             
         </body>
         </html>
