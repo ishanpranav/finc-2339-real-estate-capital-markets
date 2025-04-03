@@ -214,6 +214,27 @@ to least risky.
 | a. | 80% | 680 | 32 | First | Full |
 | c. | 70% | 730 | 28 | First | Full |
 
+Mortgage (D) is the riskiest because it is a second lien with the highest CLTV,
+lowest FICO score, highest DTI ratio, and no income documentation.
+
+Mortgage (B) is less risky than (D) since there is partial income documentation,
+holding all other characteristics constant.
+
+Mortgage (G) is similar to (B) but has lower CLTV, higher FICO, and lower DTI.
+Relative to (B), Mortgage (G) is less risky.
+
+Mortgage (F) is less risky than (G) since it is a first lien, holding all other
+characteristics constant.
+
+Mortgage (E) is less risky than (F) since it has a lower DT ratio, holding all
+other characteristics constant.
+
+Mortgage (A) is less risky than (E) since it has full income documentation,
+holding all other characteristics constant.
+
+Mortgage (C) is the least risky since it a first lien with the lowest CLTV,
+highest FICO score, lowest DTI ratio, and full income documentation.
+
 ## Problem 1: CMO spreadsheet
 
 > Consider the following mortgage pool:
