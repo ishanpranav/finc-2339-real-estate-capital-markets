@@ -291,7 +291,7 @@ A higher PSA indicates faster prepayments by borrowers, reducing the duration of
 the morgage pool investment.
 
 The mortgage pool currently trades at a premium since its coupon of 3.5 percent
-is greater than the discount rate of 3.25 percent.As a result, prepayment is
+is greater than the discount rate of 3.25 percent. As a result, prepayment is
 detrimental to investors, as well as the recipients of the servicing and
 guarantee cash flows. The NPV of every tranche declines, except for the
 principal-only B tranche.
