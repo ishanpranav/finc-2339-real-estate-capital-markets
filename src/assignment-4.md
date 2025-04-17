@@ -24,7 +24,7 @@ Fewer loans implies less diversification and more risk, since if an individual
 loan defaults, it will have a larger impact on the performance of the entire MBS
 pool. For this reason, the AAA subordination level is higher, since the AAA
 tranche needs more insulation from the potentially devastating losses that one
-or a few defaults could case. Given the higher risk in this pool, ratings
+or a few defaults could cause. Given the higher risk in this pool, ratings
 agencies would require more credit subordination for the same AAA rating.
 
 This concept also helps explain differences between credit ratings for SASB and
@@ -163,11 +163,11 @@ property's ability to generate enough income to pay its debts, it is a useful
 statistic for assessing credit risk in commercial mortgages.
 
 If a property's DSCR is less than 1, it is not generating enough income to meet
-its obligations. With DSCR equal to one, a property is breaking even. A higher
+its obligations. With DSCR equal to 1, a property is breaking even. A higher
 DSCR implies a margin of safety, as income can fall substantially without
 resulting in delinquency. A falling DSCR can be a warning of stress.
 
-DSCR may be a misleading measure if operating income is volatile. For example,
+DSCR may be a misleading measure if operating income is volatile: for example,
 if leases are short-term, net operating income is unsustainable, or rents change
 substantially.
 
@@ -214,7 +214,7 @@ have seen major gains instead.
 their reputations. It's difficult to take an extreme position, even when you are
 correct, since there are too many confounding factors.
 
-## Problem 1
+## Problem 1: Commercial mortgages and defeasance
 
 > It is 2019, and you work in finance for a large international media company.
 > Your firm took out a $500M amortizing fixed-rate commercial mortgage on your
@@ -227,3 +227,86 @@ correct, since there are too many confounding factors.
 
 > How likely is it that this loan was financed through the CMBS market? Explain.
 > How would this loan be financed otherwise?
+
+It is likely that this loan was financed through the CMBS market, since CMBS is
+common for large, high-value commercial properties like corporate headquarters.
+Since the loan amount was $500M, it was large enough to be financed through a
+CMBS conduit or even a SASB deal. Also, a fixed-rate amortizing mortgage with
+balloon payment is a typical structure for CMBS.
+
+Alternatively, the loan could have been financed through syndicated loans or
+institutional lenders.
+
+### Problem 1 Part B
+
+> What if this mortgage had been originated eight years ago instead – would your
+> answer to Part A be different?
+
+if this mortgage had been originated earlier, it would be less likely for the
+loan to have been financed through the CMBS market, since during and after the
+financial crisis of 2008, CMBS securitization declined significantly. Later,
+CMBS markets recovered but had much stricter lending standards and rtansaction
+activities were still low. During this period, it would be more likely for the
+loan to have been financed through traditional banks and institutional lenders.
+
+### Problem 1 Part C
+
+> Calculate the monthly payment on this mortgage. Also calculate the current
+> face value on this mortgage.  
+
+$$C=\text{pmt}\left(r=\frac{5\%}{12},n=25\times 12,V_0=\$500000000.00\right)=-\$2922950.21.$$
+
+The monthly payment is $2,922,950.21.
+
+$$V_{24}=\text{fv}\left(r=\frac{5\%}{12},n=2\times 12,V_0=\$500000000.00,C=-\$2922950.21\right)=-\$478853476.10.$$
+
+The face value of the mortgage is $478,853,476.10.
+
+> After a boozy lunch with some Wall Street mortgage bankers, your boss tells
+> you that he has heard financing is easily available now, and that it would be
+> possible to obtain new fixed-rate commercial mortgage financing on the
+> corporate headquarters at a lower interest rate of 4%. He tells you to look
+> into the costs and benefits of refinancing the existing mortgage to take
+> advantage of lower rates.  
+>
+> Looking at the mortgage contract, you notice that in order to refinance, you
+> will be required to defease the existing mortgage. Assume that current
+> long-term Treasury yields are 3%, and the yield curve is flat. Also assume
+> that if you refinance now, the new mortgage would have the same initial
+> contract terms as the loan you currently have (i.e. 25 year term, 10 year
+> balloon payment).
+
+### Problem 1 Part D
+
+> Assume you refinance the mortgage in a way that involves a zero up-front net
+> cash payment. In other words, when you refinance, you borrow exactly as much
+> as it costs to defease the old mortgage. Under this approach, what would your
+> new monthly payments be? Explain intuitively the reason why your monthly
+> payment went up or down relative to your calculation in Part C.
+
+For simplicity, ignore the difference in payment schedule for Treasury bonds.
+That is, assume that there is a 3% Treasury bond with monthly cash flows.
+
+To replicate the payments using a Treasury bond, we first calculate the amount
+of the bullet payment in eight years (ten years from loan initiation):
+
+$$V_{120}=\text{fv}\left(r=\frac{5\%}{12},n=10\times 12,C=-\$2922950.21,V_0=\$500000000.00\right)=\$369622377.91.$$
+
+We will need to supply a risk-free asset (Treasury bond) maturing in eight years
+with a terminal cash flow of $369,622,377.91 and regular cash flows of
+$2,922,950.21 per month.
+
+$$V_{24}'=\text{pv}\left(r=\frac{3\%}{12},n=8\times 12,C=-\$2922950.21,V_{120}'=\$369622377.91\right)=-\$540037315.02.$$
+
+The total amount to borrow is $540,037,315.02.
+
+Thus, the mortgage payment is given by:
+
+$$\text{pmt}\left(r=\frac{4\%}{12},n=25\times 12,V_0''=\$540,037,315.02\right)=-\$2850515.90.$$
+
+The mortgage payment is $2,850,515.90 per month. This is lower than the existing
+monthly payment because the 4% rate is low enough to offset the cost of
+defeasance.Since the Treasury asset is more expensive than the mortgage,
+defesance comes with a cost. However, the 100 bp difference in the mortgage rate
+makes refinancing worthwhile. If the Treasury rate were lower than 3 percent or
+the mortgage rate were higher than 4 percent, this might not have been the case.
