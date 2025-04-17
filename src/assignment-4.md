@@ -242,7 +242,7 @@ institutional lenders.
 > What if this mortgage had been originated eight years ago instead – would your
 > answer to Part A be different?
 
-if this mortgage had been originated earlier, it would be less likely for the
+If this mortgage had been originated earlier, it would be less likely for the
 loan to have been financed through the CMBS market, since during and after the
 financial crisis of 2008, CMBS securitization declined significantly. Later,
 CMBS markets recovered but had much stricter lending standards and rtansaction
@@ -258,7 +258,7 @@ $$C=\text{pmt}\left(r=\frac{5\%}{12},n=25\times 12,V_0=\$500000000.00\right)=-\$
 
 The monthly payment is $2,922,950.21.
 
-$$V_{24}=\text{fv}\left(r=\frac{5\%}{12},n=2\times 12,V_0=\$500000000.00,C=-\$2922950.21\right)=-\$478853476.10.$$
+$$V_{24}=\text{fv}\left(r=\frac{5\%}{12},n=2\times 12,C=-\$2922950.21,V_0=\$500000000.00\right)=-\$478853476.10.$$
 
 The face value of the mortgage is $478,853,476.10.
 
@@ -306,7 +306,7 @@ $$\text{pmt}\left(r=\frac{4\%}{12},n=25\times 12,V_0''=\$540037315.02\right)=-\$
 
 The mortgage payment is $2,850,515.90 per month. This is lower than the existing
 monthly payment because the 4% rate is low enough to offset the cost of
-defeasance.Since the Treasury asset is more expensive than the mortgage,
+defeasance. Since the Treasury asset is more expensive than the mortgage,
 defesance comes with a cost. However, the 100 bp difference in the mortgage rate
 makes refinancing worthwhile. If the Treasury rate were lower than 3 percent or
 the mortgage rate were higher than 4 percent, this might not have been the case.
