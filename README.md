@@ -11,3 +11,4 @@ Ishan Pranav, Ellen Ryoo, and Pavan Chand
 
 - [Assignment 1](https://ishanpranav.github.io/finc-2339-real-estate-capital-markets/assignment-1)
 - [Assignment 2](https://ishanpranav.github.io/finc-2339-real-estate-capital-markets/assignment-2)
+- [Assignment 2 (spreadsheet)](https://ishanpranav.github.io/finc-2339-real-estate-capital-markets/assignment-2.xlsx)
