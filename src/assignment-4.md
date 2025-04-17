@@ -302,7 +302,7 @@ The total amount to borrow is $540,037,315.02.
 
 Thus, the mortgage payment is given by:
 
-$$\text{pmt}\left(r=\frac{4\%}{12},n=25\times 12,V_0''=\$540,037,315.02\right)=-\$2850515.90.$$
+$$\text{pmt}\left(r=\frac{4\%}{12},n=25\times 12,V_0''=\$540037315.02\right)=-\$2850515.90.$$
 
 The mortgage payment is $2,850,515.90 per month. This is lower than the existing
 monthly payment because the 4% rate is low enough to offset the cost of
