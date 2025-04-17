@@ -310,3 +310,12 @@ defeasance.Since the Treasury asset is more expensive than the mortgage,
 defesance comes with a cost. However, the 100 bp difference in the mortgage rate
 makes refinancing worthwhile. If the Treasury rate were lower than 3 percent or
 the mortgage rate were higher than 4 percent, this might not have been the case.
+
+### Problem 1 Part E
+
+> Given this answer from Part D, do you recommend defeasing the loan to take
+> advantage of the lower market rates, and why?
+
+Given the lower payment in Part D, it is worthwhile to defease and refinance the
+mortgage. The benefits of refinancing offset the costs of defeasing in this
+case.
